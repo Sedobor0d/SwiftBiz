@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+
+import HomePage from "./components/pages/home/HomePage";
+import FormsPage from "./components/pages/forms/FormsPage";
+import { AuthProvider } from "./components/hoc/AuthProvider";
+import { RequireAuth } from "./components/hoc/RequireAuth";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthProvider>
+      <Routes>
+        <Route path="/*" element={
+          <RequireAuth>
+            <HomePage path='/' />
+          </RequireAuth>
+        } />
+        <Route path="login" element={<FormsPage />} />
+        <Route path="register" element={<FormsPage />} />
+      </Routes>
+    </AuthProvider>
   );
 }
 
