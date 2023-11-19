@@ -25,6 +25,7 @@ export const InputPass = ({ labelText, fieldName, fieldType, iconOne, iconTwo })
                type={visibleIcon ? 'text' : fieldType}
                id={fieldName}
                innerRef={ref}
+               autocomplete={fieldName}
             />
             <div className={styles.blockError}>
                <ErrorMessage name={fieldName} component="span" className={styles.error} />

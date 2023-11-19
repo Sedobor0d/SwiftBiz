@@ -52,6 +52,7 @@ const LoginPage = ({ users, message, setMessage }) => {
                fieldName={'email'}
                fieldType={'text'}
                icon={email}
+
             />
             <InputPass
                labelText={'Пароль'}

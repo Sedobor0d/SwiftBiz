@@ -38,3 +38,7 @@
    color: red;
    font-size: 13px;
 }
+
+.icon {
+   cursor: pointer;
+}
