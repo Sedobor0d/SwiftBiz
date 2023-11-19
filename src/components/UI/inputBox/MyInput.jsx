@@ -20,7 +20,6 @@ export const MyInput = ({ labelText, fieldName, fieldType, icon }) => {
                type={fieldType}
                id={fieldName}
                innerRef={ref}
-               autocomplete={fieldName}
             />
             <div className={styles.blockError}>
                <ErrorMessage name={fieldName} component="span" className={styles.error} />
