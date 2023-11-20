@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/SwiftBiz/static/css/main.6606f611.css",
-    "main.js": "/SwiftBiz/static/js/main.36ae2e0d.js",
+    "main.js": "/SwiftBiz/static/js/main.79d7c6be.js",
     "static/media/lock-off.svg": "/SwiftBiz/static/media/lock-off.da2d23b6f5f194f3ec76a74cc7b7cc1d.svg",
     "static/media/lock-open.svg": "/SwiftBiz/static/media/lock-open.6f75f3b326f13cdc74bb7026cf824cd0.svg",
     "static/media/mail.svg": "/SwiftBiz/static/media/mail.8ff0aa599245f2e523d1566bc6abc43a.svg",
     "index.html": "/SwiftBiz/index.html",
     "main.6606f611.css.map": "/SwiftBiz/static/css/main.6606f611.css.map",
-    "main.36ae2e0d.js.map": "/SwiftBiz/static/js/main.36ae2e0d.js.map"
+    "main.79d7c6be.js.map": "/SwiftBiz/static/js/main.79d7c6be.js.map"
   },
   "entrypoints": [
     "static/css/main.6606f611.css",
-    "static/js/main.36ae2e0d.js"
+    "static/js/main.79d7c6be.js"
   ]
 }
