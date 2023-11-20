@@ -14,8 +14,8 @@ import Notification from "../../../utils/helpers/notification/Notification";
 const RegisterPage = ({ users, setUsers, message, setMessage }) => {
    const navigate = useNavigate();
 
-   const findUser = ({ email, password }) => {
-      return users.find((user) => user.email === email && user.password === password);
+   const findUser = ({ email }) => {
+      return users.find((user) => user.email === email);
    };
 
    const registerUser = (obj) => {
