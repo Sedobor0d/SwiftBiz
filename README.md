@@ -2,6 +2,11 @@
 
 https://sedobor0d.github.io/SwiftBiz/
 
+## Description
+
+This project implements a registration and authorization form, the data is stored locally. 
+A separate account has also been created for testing.
+
 ## Test data for authorization
 
 login = admin@gmail.com 
